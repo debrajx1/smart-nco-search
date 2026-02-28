@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx}"
@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'fade-in': 'fadeIn 0.5s ease-out', // 👈 Add custom animation
+        'fade-in': 'fadeIn 0.5s ease-out',
       },
       keyframes: {
         fadeIn: {

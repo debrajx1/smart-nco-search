@@ -144,9 +144,8 @@ function AdminPanel() {
           </div>
           <button
             type="submit"
-            className={`inline-flex items-center gap-2 bg-[#0B3B60] text-white px-6 py-3 rounded-md hover:bg-[#092d48] focus:ring-4 focus:ring-[#0B3B60] transition shadow-md ${
-              loading ? "opacity-50 cursor-not-allowed" : ""
-            }`}
+            className={`inline-flex items-center gap-2 bg-[#0B3B60] text-white px-6 py-3 rounded-md hover:bg-[#092d48] focus:ring-4 focus:ring-[#0B3B60] transition shadow-md ${loading ? "opacity-50 cursor-not-allowed" : ""
+              }`}
             disabled={loading}
             aria-disabled={loading}
           >
